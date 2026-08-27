@@ -1,0 +1,44 @@
+# Alumni Platform - Git Ignore
+
+# Sensitive config files
+db_config.php
+config.php
+*.env
+.env
+
+# Uploaded user files (runtime data)
+uploads/*
+!uploads/.gitkeep
+profile_images/*
+!profile_images/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+
+# Node modules (if any)
+node_modules/
+
+# Compiled/build outputs
+dist/
+build/
+
+# Logs
+*.log
+error_log
+
+# PHP session files
+sess_*
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+
+# IDE
+*.idea/

@@ -1,0 +1,1 @@
+<?php\n// Zoom Integration for Alumni Portal\n// This file provides Zoom meeting integration as an alternative to WebRTC\n\nsession_start();\ninclude 'db_controller.php';\n$conn->select_db(\"Alumni\");\n\n// Check if user is logged in\nif (!isset($_SESSION['logged_acc
